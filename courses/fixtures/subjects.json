@@ -1,0 +1,1017 @@
+[
+  {
+    "model": "courses.subject",
+    "pk": 1,
+    "fields": {
+      "title": "Mathematics",
+      "slug": "mathematics"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 2,
+    "fields": {
+      "title": "Physics",
+      "slug": "physics"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 3,
+    "fields": {
+      "title": "Chemistry",
+      "slug": "chemistry"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 4,
+    "fields": {
+      "title": "History",
+      "slug": "history"
+    }
+  },
+  {
+    "model": "courses.subject",
+    "pk": 5,
+    "fields": {
+      "title": "Literature",
+      "slug": "literature"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "owner": 1,
+      "subject": 1,
+      "title": "Mathematics Course 1",
+      "slug": "mathematics-course-1",
+      "overview": "Overview of Mathematics Course 1",
+      "created": "2025-07-09T06:20:07.100Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "owner": 1,
+      "subject": 1,
+      "title": "Mathematics Course 2",
+      "slug": "mathematics-course-2",
+      "overview": "Overview of Mathematics Course 2",
+      "created": "2025-07-09T06:20:07.143Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+      "owner": 1,
+      "subject": 1,
+      "title": "Mathematics Course 3",
+      "slug": "mathematics-course-3",
+      "overview": "Overview of Mathematics Course 3",
+      "created": "2025-07-09T06:20:07.198Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 4,
+    "fields": {
+      "owner": 1,
+      "subject": 1,
+      "title": "Mathematics Course 4",
+      "slug": "mathematics-course-4",
+      "overview": "Overview of Mathematics Course 4",
+      "created": "2025-07-09T06:20:07.254Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 5,
+    "fields": {
+      "owner": 1,
+      "subject": 1,
+      "title": "Mathematics Course 5",
+      "slug": "mathematics-course-5",
+      "overview": "Overview of Mathematics Course 5",
+      "created": "2025-07-09T06:20:07.309Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 6,
+    "fields": {
+      "owner": 1,
+      "subject": 2,
+      "title": "Physics Course 1",
+      "slug": "physics-course-1",
+      "overview": "Overview of Physics Course 1",
+      "created": "2025-07-09T06:20:07.377Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 7,
+    "fields": {
+      "owner": 1,
+      "subject": 2,
+      "title": "Physics Course 2",
+      "slug": "physics-course-2",
+      "overview": "Overview of Physics Course 2",
+      "created": "2025-07-09T06:20:07.432Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 8,
+    "fields": {
+      "owner": 1,
+      "subject": 2,
+      "title": "Physics Course 3",
+      "slug": "physics-course-3",
+      "overview": "Overview of Physics Course 3",
+      "created": "2025-07-09T06:20:07.486Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 9,
+    "fields": {
+      "owner": 1,
+      "subject": 2,
+      "title": "Physics Course 4",
+      "slug": "physics-course-4",
+      "overview": "Overview of Physics Course 4",
+      "created": "2025-07-09T06:20:07.540Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 10,
+    "fields": {
+      "owner": 1,
+      "subject": 2,
+      "title": "Physics Course 5",
+      "slug": "physics-course-5",
+      "overview": "Overview of Physics Course 5",
+      "created": "2025-07-09T06:20:07.578Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 11,
+    "fields": {
+      "owner": 1,
+      "subject": 3,
+      "title": "Chemistry Course 1",
+      "slug": "chemistry-course-1",
+      "overview": "Overview of Chemistry Course 1",
+      "created": "2025-07-09T06:20:07.610Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 12,
+    "fields": {
+      "owner": 1,
+      "subject": 3,
+      "title": "Chemistry Course 2",
+      "slug": "chemistry-course-2",
+      "overview": "Overview of Chemistry Course 2",
+      "created": "2025-07-09T06:20:07.630Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 13,
+    "fields": {
+      "owner": 1,
+      "subject": 3,
+      "title": "Chemistry Course 3",
+      "slug": "chemistry-course-3",
+      "overview": "Overview of Chemistry Course 3",
+      "created": "2025-07-09T06:20:07.650Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 14,
+    "fields": {
+      "owner": 1,
+      "subject": 3,
+      "title": "Chemistry Course 4",
+      "slug": "chemistry-course-4",
+      "overview": "Overview of Chemistry Course 4",
+      "created": "2025-07-09T06:20:07.670Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 15,
+    "fields": {
+      "owner": 1,
+      "subject": 3,
+      "title": "Chemistry Course 5",
+      "slug": "chemistry-course-5",
+      "overview": "Overview of Chemistry Course 5",
+      "created": "2025-07-09T06:20:07.693Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 16,
+    "fields": {
+      "owner": 1,
+      "subject": 4,
+      "title": "History Course 1",
+      "slug": "history-course-1",
+      "overview": "Overview of History Course 1",
+      "created": "2025-07-09T06:20:07.729Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 17,
+    "fields": {
+      "owner": 1,
+      "subject": 4,
+      "title": "History Course 2",
+      "slug": "history-course-2",
+      "overview": "Overview of History Course 2",
+      "created": "2025-07-09T06:20:07.764Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 18,
+    "fields": {
+      "owner": 1,
+      "subject": 4,
+      "title": "History Course 3",
+      "slug": "history-course-3",
+      "overview": "Overview of History Course 3",
+      "created": "2025-07-09T06:20:07.817Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 19,
+    "fields": {
+      "owner": 1,
+      "subject": 4,
+      "title": "History Course 4",
+      "slug": "history-course-4",
+      "overview": "Overview of History Course 4",
+      "created": "2025-07-09T06:20:07.878Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 20,
+    "fields": {
+      "owner": 1,
+      "subject": 4,
+      "title": "History Course 5",
+      "slug": "history-course-5",
+      "overview": "Overview of History Course 5",
+      "created": "2025-07-09T06:20:07.940Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 21,
+    "fields": {
+      "owner": 1,
+      "subject": 5,
+      "title": "Literature Course 1",
+      "slug": "literature-course-1",
+      "overview": "Overview of Literature Course 1",
+      "created": "2025-07-09T06:20:08.017Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 22,
+    "fields": {
+      "owner": 1,
+      "subject": 5,
+      "title": "Literature Course 2",
+      "slug": "literature-course-2",
+      "overview": "Overview of Literature Course 2",
+      "created": "2025-07-09T06:20:08.077Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 23,
+    "fields": {
+      "owner": 1,
+      "subject": 5,
+      "title": "Literature Course 3",
+      "slug": "literature-course-3",
+      "overview": "Overview of Literature Course 3",
+      "created": "2025-07-09T06:20:08.141Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 24,
+    "fields": {
+      "owner": 1,
+      "subject": 5,
+      "title": "Literature Course 4",
+      "slug": "literature-course-4",
+      "overview": "Overview of Literature Course 4",
+      "created": "2025-07-09T06:20:08.203Z"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 25,
+    "fields": {
+      "owner": 1,
+      "subject": 5,
+      "title": "Literature Course 5",
+      "slug": "literature-course-5",
+      "overview": "Overview of Literature Course 5",
+      "created": "2025-07-09T06:20:08.265Z"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "title": "Module 1 - Mathematics Course 1",
+      "description": "This is the description for Module 1 in Mathematics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 2,
+    "fields": {
+      "course": 1,
+      "title": "Module 2 - Mathematics Course 1",
+      "description": "This is the description for Module 2 in Mathematics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 3,
+    "fields": {
+      "course": 1,
+      "title": "Module 3 - Mathematics Course 1",
+      "description": "This is the description for Module 3 in Mathematics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "title": "Module 1 - Mathematics Course 2",
+      "description": "This is the description for Module 1 in Mathematics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 5,
+    "fields": {
+      "course": 2,
+      "title": "Module 2 - Mathematics Course 2",
+      "description": "This is the description for Module 2 in Mathematics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 6,
+    "fields": {
+      "course": 2,
+      "title": "Module 3 - Mathematics Course 2",
+      "description": "This is the description for Module 3 in Mathematics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 7,
+    "fields": {
+      "course": 3,
+      "title": "Module 1 - Mathematics Course 3",
+      "description": "This is the description for Module 1 in Mathematics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 8,
+    "fields": {
+      "course": 3,
+      "title": "Module 2 - Mathematics Course 3",
+      "description": "This is the description for Module 2 in Mathematics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 9,
+    "fields": {
+      "course": 3,
+      "title": "Module 3 - Mathematics Course 3",
+      "description": "This is the description for Module 3 in Mathematics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 10,
+    "fields": {
+      "course": 4,
+      "title": "Module 1 - Mathematics Course 4",
+      "description": "This is the description for Module 1 in Mathematics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 11,
+    "fields": {
+      "course": 4,
+      "title": "Module 2 - Mathematics Course 4",
+      "description": "This is the description for Module 2 in Mathematics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 12,
+    "fields": {
+      "course": 4,
+      "title": "Module 3 - Mathematics Course 4",
+      "description": "This is the description for Module 3 in Mathematics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 13,
+    "fields": {
+      "course": 5,
+      "title": "Module 1 - Mathematics Course 5",
+      "description": "This is the description for Module 1 in Mathematics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 14,
+    "fields": {
+      "course": 5,
+      "title": "Module 2 - Mathematics Course 5",
+      "description": "This is the description for Module 2 in Mathematics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 15,
+    "fields": {
+      "course": 5,
+      "title": "Module 3 - Mathematics Course 5",
+      "description": "This is the description for Module 3 in Mathematics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 16,
+    "fields": {
+      "course": 6,
+      "title": "Module 1 - Physics Course 1",
+      "description": "This is the description for Module 1 in Physics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 17,
+    "fields": {
+      "course": 6,
+      "title": "Module 2 - Physics Course 1",
+      "description": "This is the description for Module 2 in Physics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 18,
+    "fields": {
+      "course": 6,
+      "title": "Module 3 - Physics Course 1",
+      "description": "This is the description for Module 3 in Physics Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 19,
+    "fields": {
+      "course": 7,
+      "title": "Module 1 - Physics Course 2",
+      "description": "This is the description for Module 1 in Physics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 20,
+    "fields": {
+      "course": 7,
+      "title": "Module 2 - Physics Course 2",
+      "description": "This is the description for Module 2 in Physics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 21,
+    "fields": {
+      "course": 7,
+      "title": "Module 3 - Physics Course 2",
+      "description": "This is the description for Module 3 in Physics Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 22,
+    "fields": {
+      "course": 8,
+      "title": "Module 1 - Physics Course 3",
+      "description": "This is the description for Module 1 in Physics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 23,
+    "fields": {
+      "course": 8,
+      "title": "Module 2 - Physics Course 3",
+      "description": "This is the description for Module 2 in Physics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 24,
+    "fields": {
+      "course": 8,
+      "title": "Module 3 - Physics Course 3",
+      "description": "This is the description for Module 3 in Physics Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 25,
+    "fields": {
+      "course": 9,
+      "title": "Module 1 - Physics Course 4",
+      "description": "This is the description for Module 1 in Physics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 26,
+    "fields": {
+      "course": 9,
+      "title": "Module 2 - Physics Course 4",
+      "description": "This is the description for Module 2 in Physics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 27,
+    "fields": {
+      "course": 9,
+      "title": "Module 3 - Physics Course 4",
+      "description": "This is the description for Module 3 in Physics Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 28,
+    "fields": {
+      "course": 10,
+      "title": "Module 1 - Physics Course 5",
+      "description": "This is the description for Module 1 in Physics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 29,
+    "fields": {
+      "course": 10,
+      "title": "Module 2 - Physics Course 5",
+      "description": "This is the description for Module 2 in Physics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 30,
+    "fields": {
+      "course": 10,
+      "title": "Module 3 - Physics Course 5",
+      "description": "This is the description for Module 3 in Physics Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 31,
+    "fields": {
+      "course": 11,
+      "title": "Module 1 - Chemistry Course 1",
+      "description": "This is the description for Module 1 in Chemistry Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 32,
+    "fields": {
+      "course": 11,
+      "title": "Module 2 - Chemistry Course 1",
+      "description": "This is the description for Module 2 in Chemistry Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 33,
+    "fields": {
+      "course": 11,
+      "title": "Module 3 - Chemistry Course 1",
+      "description": "This is the description for Module 3 in Chemistry Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 34,
+    "fields": {
+      "course": 12,
+      "title": "Module 1 - Chemistry Course 2",
+      "description": "This is the description for Module 1 in Chemistry Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 35,
+    "fields": {
+      "course": 12,
+      "title": "Module 2 - Chemistry Course 2",
+      "description": "This is the description for Module 2 in Chemistry Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 36,
+    "fields": {
+      "course": 12,
+      "title": "Module 3 - Chemistry Course 2",
+      "description": "This is the description for Module 3 in Chemistry Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 37,
+    "fields": {
+      "course": 13,
+      "title": "Module 1 - Chemistry Course 3",
+      "description": "This is the description for Module 1 in Chemistry Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 38,
+    "fields": {
+      "course": 13,
+      "title": "Module 2 - Chemistry Course 3",
+      "description": "This is the description for Module 2 in Chemistry Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 39,
+    "fields": {
+      "course": 13,
+      "title": "Module 3 - Chemistry Course 3",
+      "description": "This is the description for Module 3 in Chemistry Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 40,
+    "fields": {
+      "course": 14,
+      "title": "Module 1 - Chemistry Course 4",
+      "description": "This is the description for Module 1 in Chemistry Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 41,
+    "fields": {
+      "course": 14,
+      "title": "Module 2 - Chemistry Course 4",
+      "description": "This is the description for Module 2 in Chemistry Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 42,
+    "fields": {
+      "course": 14,
+      "title": "Module 3 - Chemistry Course 4",
+      "description": "This is the description for Module 3 in Chemistry Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 43,
+    "fields": {
+      "course": 15,
+      "title": "Module 1 - Chemistry Course 5",
+      "description": "This is the description for Module 1 in Chemistry Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 44,
+    "fields": {
+      "course": 15,
+      "title": "Module 2 - Chemistry Course 5",
+      "description": "This is the description for Module 2 in Chemistry Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 45,
+    "fields": {
+      "course": 15,
+      "title": "Module 3 - Chemistry Course 5",
+      "description": "This is the description for Module 3 in Chemistry Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 46,
+    "fields": {
+      "course": 16,
+      "title": "Module 1 - History Course 1",
+      "description": "This is the description for Module 1 in History Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 47,
+    "fields": {
+      "course": 16,
+      "title": "Module 2 - History Course 1",
+      "description": "This is the description for Module 2 in History Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 48,
+    "fields": {
+      "course": 16,
+      "title": "Module 3 - History Course 1",
+      "description": "This is the description for Module 3 in History Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 49,
+    "fields": {
+      "course": 17,
+      "title": "Module 1 - History Course 2",
+      "description": "This is the description for Module 1 in History Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 50,
+    "fields": {
+      "course": 17,
+      "title": "Module 2 - History Course 2",
+      "description": "This is the description for Module 2 in History Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 51,
+    "fields": {
+      "course": 17,
+      "title": "Module 3 - History Course 2",
+      "description": "This is the description for Module 3 in History Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 52,
+    "fields": {
+      "course": 18,
+      "title": "Module 1 - History Course 3",
+      "description": "This is the description for Module 1 in History Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 53,
+    "fields": {
+      "course": 18,
+      "title": "Module 2 - History Course 3",
+      "description": "This is the description for Module 2 in History Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 54,
+    "fields": {
+      "course": 18,
+      "title": "Module 3 - History Course 3",
+      "description": "This is the description for Module 3 in History Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 55,
+    "fields": {
+      "course": 19,
+      "title": "Module 1 - History Course 4",
+      "description": "This is the description for Module 1 in History Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 56,
+    "fields": {
+      "course": 19,
+      "title": "Module 2 - History Course 4",
+      "description": "This is the description for Module 2 in History Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 57,
+    "fields": {
+      "course": 19,
+      "title": "Module 3 - History Course 4",
+      "description": "This is the description for Module 3 in History Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 58,
+    "fields": {
+      "course": 20,
+      "title": "Module 1 - History Course 5",
+      "description": "This is the description for Module 1 in History Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 59,
+    "fields": {
+      "course": 20,
+      "title": "Module 2 - History Course 5",
+      "description": "This is the description for Module 2 in History Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 60,
+    "fields": {
+      "course": 20,
+      "title": "Module 3 - History Course 5",
+      "description": "This is the description for Module 3 in History Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 61,
+    "fields": {
+      "course": 21,
+      "title": "Module 1 - Literature Course 1",
+      "description": "This is the description for Module 1 in Literature Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 62,
+    "fields": {
+      "course": 21,
+      "title": "Module 2 - Literature Course 1",
+      "description": "This is the description for Module 2 in Literature Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 63,
+    "fields": {
+      "course": 21,
+      "title": "Module 3 - Literature Course 1",
+      "description": "This is the description for Module 3 in Literature Course 1"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 64,
+    "fields": {
+      "course": 22,
+      "title": "Module 1 - Literature Course 2",
+      "description": "This is the description for Module 1 in Literature Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 65,
+    "fields": {
+      "course": 22,
+      "title": "Module 2 - Literature Course 2",
+      "description": "This is the description for Module 2 in Literature Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 66,
+    "fields": {
+      "course": 22,
+      "title": "Module 3 - Literature Course 2",
+      "description": "This is the description for Module 3 in Literature Course 2"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 67,
+    "fields": {
+      "course": 23,
+      "title": "Module 1 - Literature Course 3",
+      "description": "This is the description for Module 1 in Literature Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 68,
+    "fields": {
+      "course": 23,
+      "title": "Module 2 - Literature Course 3",
+      "description": "This is the description for Module 2 in Literature Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 69,
+    "fields": {
+      "course": 23,
+      "title": "Module 3 - Literature Course 3",
+      "description": "This is the description for Module 3 in Literature Course 3"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 70,
+    "fields": {
+      "course": 24,
+      "title": "Module 1 - Literature Course 4",
+      "description": "This is the description for Module 1 in Literature Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 71,
+    "fields": {
+      "course": 24,
+      "title": "Module 2 - Literature Course 4",
+      "description": "This is the description for Module 2 in Literature Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 72,
+    "fields": {
+      "course": 24,
+      "title": "Module 3 - Literature Course 4",
+      "description": "This is the description for Module 3 in Literature Course 4"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 73,
+    "fields": {
+      "course": 25,
+      "title": "Module 1 - Literature Course 5",
+      "description": "This is the description for Module 1 in Literature Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 74,
+    "fields": {
+      "course": 25,
+      "title": "Module 2 - Literature Course 5",
+      "description": "This is the description for Module 2 in Literature Course 5"
+    }
+  },
+  {
+    "model": "courses.module",
+    "pk": 75,
+    "fields": {
+      "course": 25,
+      "title": "Module 3 - Literature Course 5",
+      "description": "This is the description for Module 3 in Literature Course 5"
+    }
+  }
+]
