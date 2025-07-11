@@ -1,11 +1,13 @@
 from django.contrib.auth.models import User
-from courses.models import Subject, Course, Module
 from django.utils.text import slugify
+
+from courses.models import Course, Module, Subject
 
 # Create a user if not exists
 user, created = User.objects.get_or_create(
     username="admin", defaults={"email": "admin@example.com", "password": "adminpass"}
 )
+
 
 # 5 subjects
 subject_titles = ["Mathematics", "Physics", "Chemistry", "History", "Literature"]
