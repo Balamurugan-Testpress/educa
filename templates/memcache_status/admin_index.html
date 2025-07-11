@@ -1,0 +1,10 @@
+{% extends "admin/index.html" %}
+{% load memcache_status_tags %}
+{% block content %}
+  {{ block.super }}
+  <div class="module">
+    <h2>Memcache Status</h2>
+    {% memcache_status %}
+  </div>
+  <p>Cache object: {{ cache }}</p>
+{% endblock %}
