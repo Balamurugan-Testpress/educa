@@ -8,7 +8,7 @@ SECRET_KEY = "your-secret-key"  # 🔒 Replace with a strong secret key for prod
 
 DEBUG = False
 
-ALLOWED_HOSTS = ["balamurugan1000.pythonanywhere.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["balamurugan1000.pythonanywhere.com", "127.0.0.1", "localhost", "educa-orev.onrender.com",  ]
 
 # --- Admins ---
 ADMINS = [("admin", "rbalamurugan1000@hot.com")]
