@@ -30,7 +30,7 @@ CACHES = {
 SECRET_KEY = "django-insecure-m2m8ep))22g8pdti!_(e=kj3w)++ok=8!bdoz$gtd1)s5^sqln"
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["balamurugan1000.pythonanywhere.com", "127.0.0.1", "localhost"]
 
 
 # Application definition
