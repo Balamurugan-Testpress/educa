@@ -16,11 +16,9 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 CACHES = {
     "default": {
-        "BACKEND": "django.core.cache.backends.memcached.PyMemcacheCache",
-        "LOCATION": "127.0.0.1:11211",
+        "BACKEND": "django.core.cache.backends.locmem.LocMemCache",
     }
 }
 # Quick-start development settings - unsuitable for production
@@ -29,7 +27,16 @@ CACHES = {
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-m2m8ep))22g8pdti!_(e=kj3w)++ok=8!bdoz$gtd1)s5^sqln"
 
-
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "educa",
+        "USER": "educa",
+        "PASSWORD": "1234",
+        "HOST": "localhost",  # or "127.0.0.1"
+        "PORT": "5432",  # default PostgreSQL port
+    }
+}
 ALLOWED_HOSTS = ["balamurugan1000.pythonanywhere.com", "127.0.0.1", "localhost"]
 
 
@@ -47,7 +54,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "channels",
     "embed_video",
-    "memcache_status",
+    # "memcache_status",
     "rest_framework",
     "chat",
 ]
