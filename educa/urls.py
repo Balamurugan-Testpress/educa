@@ -33,10 +33,8 @@ urlpatterns = [
     path("course/", include("courses.urls")),
     path("students/", include("students.urls")),
     path("api/", include("courses.api.urls", namespace="api")),
+    path("chat/", include("chat.urls", namespace="chat")),
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-
-print("✅ Using custom admin index template")
